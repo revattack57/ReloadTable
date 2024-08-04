@@ -1,0 +1,48 @@
+getgenv().ReloadSettings = {
+    CheckKO = true,
+    AimTarget = {
+        Active = true,
+        PredictionFactor = 0.124,
+        TargetPart = "Head",
+        UseAirPart = true,
+        AirPartName = "Head",
+        AttachCamlock = true,
+        FieldOfView = {
+            Visible = false,
+            Color = Color3.new(1, 1, 1),
+            Radius = 180,
+            Transparency = 0.07
+        }
+    },
+    CamlockSettings = {
+        Active = true,
+        BindKey = "C",
+        PredictionValue = 0.19,
+        AimAtPart = "HumanoidRootPart",
+        ActivationKey = "Q",
+        UseAirPart = true,
+        AirPartName = "Head",
+        EasingStyle = Enum.EasingStyle.Exponential,
+        SmoothingFactor = 0.051,
+        FieldOfView = {
+            Visible = false,
+            Color = Color3.new(1, 1, 1),
+            Radius = 90,
+            Transparency = 0.07
+        }
+    },
+    TextureSettings = {
+        Active = true,
+        MaterialType = Enum.Material.Brick,
+        ColorValue = Color3.fromRGB(244, 244, 244)
+    },
+    CFrame = {
+        Enabled = false,
+        Speed = 1,
+        BindKey = "V", -- cframe keybind 
+    }
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d31e024fe846fc17976a88067423b339.lua"))()
+
+
