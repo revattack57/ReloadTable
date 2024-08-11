@@ -1,4 +1,3 @@
-
 — paste key here
 getgenv().skibidi_script_key = script_key; — no touchy! 
 
