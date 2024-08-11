@@ -1,8 +1,9 @@
 — paste key here
-getgenv().skibidi_script_key = script_key; — no touchy!
+getgenv().skibidi_script_key = script_key; — no touchy! 
 
 getgenv().ReloadSettings = {
     CheckKO = true,
+    KenCarsonJUMPSCARED = true,
     AimTarget = {
         Active = true,
         PredictionFactor = 0.124,
@@ -13,7 +14,7 @@ getgenv().ReloadSettings = {
         FieldOfView = {
             Visible = false,
             Color = Color3.new(1, 1, 1),
-            Radius = 180,
+            Radius = 500,
             Transparency = 0.07
         }
     },
@@ -30,7 +31,7 @@ getgenv().ReloadSettings = {
         FieldOfView = {
             Visible = false,
             Color = Color3.new(1, 1, 1),
-            Radius = 90,
+            Radius = 500,
             Transparency = 0.07
         }
     },
@@ -40,9 +41,9 @@ getgenv().ReloadSettings = {
         ColorValue = Color3.fromRGB(244, 244, 244)
     },
     CFrame = {
-        Enabled = false,
-        Speed = 1,
-        BindKey = "V", -- cframe keybind 
+        Enabled = true,
+        Speed = 10,
+        BindKey = "V", -- CFrame keybind
     }
 }
 
